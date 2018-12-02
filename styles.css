@@ -70,8 +70,13 @@ ul .nav
  {
  	text-align: center;
  	padding-top: 200px;
- 	font-size: 100px !important;
+    font-size: 100px;
  }
+ @media screen and (max-width: 768px) {
+    .fix h1{
+        font-size: 60px;
+    }
+}
 /*************************************************** PORTFOLIO ************************************************/
 #portFolio
 {
@@ -85,11 +90,11 @@ ul .nav
 	width: 100%;
 	/*padding-top: 65px;*/
 }
-
 #monCarousel .image h1
 {
 	margin-bottom: 15px;
 }
+
 /************************************************* STEPS ***************************************************/
 #steps
 {
