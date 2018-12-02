@@ -1,0 +1,144 @@
+/************************************************** GENERAL ****************************************************************/
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+h1,h3,h4,h5,h6
+{
+	color: #398FE2 !important;
+	font-family: 'Pacifico', cursive !important;
+}
+h2
+{
+	
+	color: #fff;
+	font-family: 'Pacifico', cursive !important;
+	background-color: #C9F2FF;
+}
+p
+{
+	margin-top: 10px;
+	text-align: left; 
+}
+section
+{
+	padding-top: 65px;
+}
+:target
+{
+
+}
+/*********************************************** NAVBAR **************************************************/
+ul .nav
+{
+	margin-right: 20px;
+}
+.divider
+{
+	width: 100px;
+	border-top: 2px solid #398FE2 /*#66d9ff*/;
+	margin : 0px auto 20px;
+}
+.navbar a
+{
+	color: #398FE2;
+	font-family: 'Pacifico', cursive;
+	outline: none;
+}
+.navbar a:hover
+{
+	color: #66d9ff;
+}
+
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+/************************************************** EFFET SCROLLING *****************************************/
+.fix
+{
+  	height: 700px;
+  	background-image: url('images/fond.png');
+  	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-size: cover;
+ }
+ .fix h1
+ {
+ 	text-align: center;
+ 	padding-top: 200px;
+ 	font-size: 100px !important;
+ }
+/*************************************************** PORTFOLIO ************************************************/
+#portFolio
+{
+	height: 300px;
+	margin-top: 50px;
+	/*background-image: linear-gradient(to bottom right ,#b3ffff,white);*/
+}
+#monCarousel
+{
+	height: 100%;
+	width: 100%;
+	/*padding-top: 65px;*/
+}
+
+#monCarousel .image h1
+{
+	margin-bottom: 15px;
+}
+/************************************************* STEPS ***************************************************/
+#steps
+{
+	padding: 30px 0px;
+	background-color: #fff;
+}
+
+/*************************************************** INFORMATION *********************************************/
+#information
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+#information .article
+{
+	background-color: #C9F2FF;
+	padding-top: 10px;
+	border-radius: 30px;
+	border: 5px solid #fff;
+}
+#information .article h1,h5
+{
+	text-align: center;
+}
+/*************************************************** CONTACT ***************************************************/
+#contacts
+{
+	margin-top:  20px;
+	/*background-image: linear-gradient(to bottom right ,white, #b3ffff);*/
+}
+#contacts ul li
+{
+	list-style: none;
+}
+#contacts #block
+{
+	padding-left: 300px;
+}
+
+/*************************************************** FOOTER *****************************************************/
+ footer
+ {
+ 	background-color: #C9F2FF;
+ 	height: 200px;
+ 	text-align: center;
+ }
+ footer h1
+ {
+ 	padding-top: 60px;
+ }
+
