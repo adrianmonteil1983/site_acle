@@ -26,10 +26,7 @@ section
 {
 	padding-top: 65px;
 }
-:target
-{
 
-}
 /*********************************************** NAVBAR **************************************************/
 ul .nav
 {
@@ -51,10 +48,16 @@ ul .nav
 {
 	color: #66d9ff;
 }
-
 .navbar-toggler
 {
 	outline: none !important;
+}
+@media screen and (max-width: 768px)
+{
+    nav:not(:hover) #navbarNav
+    {
+    	display: none;
+    }
 }
 
 /************************************************** EFFET SCROLLING *****************************************/
@@ -66,14 +69,16 @@ ul .nav
 	background-attachment: fixed;
 	background-size: cover;
  }
- .fix h1
+.fix h1
  {
  	text-align: center;
  	padding-top: 200px;
     font-size: 100px;
  }
- @media screen and (max-width: 768px) {
-    .fix h1{
+@media screen and (max-width: 768px)
+{
+    .fix h1
+    {
         font-size: 60px;
     }
 }
