@@ -52,13 +52,21 @@ ul .nav
 {
 	outline: none !important;
 }
-@media screen and (max-width: 768px)
+#navbarNav:focus
 {
-    nav:not(:hover) #navbarNav
-    {
-    	display: none;
-    }
+	display: none;
 }
+/*button:focus+#navbarNav
+{
+    display: block;
+}*/
+
+
+ /*nav div #navbarNav:focus
+ {
+    display: none;
+ }*/
+
 
 /************************************************** EFFET SCROLLING *****************************************/
 .fix
