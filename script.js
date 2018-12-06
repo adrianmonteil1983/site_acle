@@ -1,8 +1,8 @@
 $(function (){
 	$("button").click(function(){
-		$("#navbarNav").show();
-	})
+		$("#navbarNav").toggle("slow");
+	});
 	$("#navbarNav a").click(function(){
-		$("#navbarNav").hide();
-	})
-})
+		$("#navbarNav").hide("slow");
+	});
+});
